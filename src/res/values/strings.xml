@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">رەسىملىك كىتاب</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="app_info">ئەپ ھەققىدە</string>
+    <string name="app_name_en">Picture Book</string>
+    <string name="app_name_cn">图画书</string>
+    <string name="version">نەشرى 13.8.23</string>
+    <string name="app_info_content">بۇ مەخسۇس ئۇيغۇرچە pbk فورماتىدىكى رەسىملىك كىتابلارنى ئوقۇيدىغان ئەپ بولۇپ، ئۇيغۇرچە قوللايدىغان ئاندرويىد سېستىمېلىق ئۈسكۈنىلەردە نورمال ئىشلەيدۇ.</string>
+    <string name="version_new">بۇ نەشىردىكى يېڭىلىقلار:</string>
+    <string name="version_new_content"> تېلېفونىڭ 2G تورىدا كىتاب چۈشۈرۈش ئىقتىدارى قوشۇلدى</string>
+    <string name="copyright">ئاپتورلۇق ھوقۇقى باياناتى:</string>
+    <string name="copyright_content">بۇ بىر ھەقسىز دېتال. رۇخسەتسىز سودىغا ئىشلىتىشكە بولمايدۇ. ئاپتورلۇق ھوقۇقى بىلكان ئېلېكتىرون پەن- تېخنىكا شىركىتىگە تەئەللۇق!</string>
+    <string name="copyright_content_en">Copyright 2011 BILKAN       All Rights Reserved.\nwww.bilkan.net</string>
+    <string name="close">تاقاش</string>
+	<string name="author">ئاپتورى:</string>
+	<string name="description">مەزمۇنى:</string>
+	<string name="language">تىلى:</string>
+	<string name="size">سىغىمى:</string>
+	<string name="confirm_download">بۇ كىتابنى چۈشۈرەمسىز؟ \n چۈشۈرۈلگەن كىتاب sd كاتىدىكى PictureBook/%bt گە ساقلىنىدۇ.</string>
+	<string name="download">چۈشۈرۈش</string>
+	<string name="about">ھەققىدە</string>
+	<string name="network">تور</string>
+	<string name="refresh">يېڭىلاش</string>
+	<string name="exit">چىكىنىش</string>
+	<string name="list">كۆرۈش ھالىتى</string>
+	<string name="read">بۇ كىتابنى ئوقۇش</string>
+	<string name="discon">تورسىز</string>
+	<string name="yesdelete">بۇ كىتابنى راستىنلا ئۆچۈرەمسىز؟</string>
+	<string name="yes_or_no">جەزىملەشتۈرۈش</string>
+	<string name="yes">ھەئە</string>
+	<string name="no">ياق</string>
+	<string name="uploading">سەل ساقلاڭ ھۆججەتنى يۈكلەۋاتىدۇ!</string>
+</resources>

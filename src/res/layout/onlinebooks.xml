@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/upper_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/upperbar"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/about"
+            android:src="@drawable/about"
+            android:text="@string/about"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/network"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="false"
+            android:layout_centerInParent="false"
+            android:layout_centerVertical="true"
+            android:background="@drawable/network"
+            android:text="@string/network"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/lower_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/lowerbar"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/exit"
+            android:text="@string/exit"
+            android:textColor="#ffffff" />
+
+        <ImageButton
+            android:id="@+id/booklist"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/refresh"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/nrefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/refresh"
+            android:text="@string/refresh"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/online_booklist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/lower_bar"
+        android:layout_below="@+id/upper_bar"
+        android:layout_centerHorizontal="false"
+        android:background="@drawable/bookshelp" >
+
+    </ListView>
+
+    <GridView
+        android:id="@+id/gridViewshow"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/lower_bar"
+        android:layout_below="@+id/upper_bar"
+        android:background="@drawable/bookshelp"
+        android:numColumns="3" >
+
+    </GridView>
+
+    <ProgressBar
+        android:id="@+id/dpb"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="visible" />
+
+</RelativeLayout>

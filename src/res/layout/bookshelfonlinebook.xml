@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llpic"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<!-- 
+    <RelativeLayout
+        android:id="@+id/local_relative"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bookimage"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/onlinePic"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="8dp" />
+    </RelativeLayout>
+ -->
+
+</RelativeLayout>
